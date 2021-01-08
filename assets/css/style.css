@@ -1,4 +1,4 @@
-/*---------============corano style==========----------*/
+/*---------============E-Health style.css==========----------*/
 
 
 /*-------------------------table-of-contents---------------------------
@@ -1211,7 +1211,8 @@ header css
 
 .header_v1 .header_top .recent_news {
 	position: relative;
-	margin-left: 220px;
+	margin-left: 265px;
+	min-width: 700px;
 }
 
 .header_v1 .header_top .news_inner {
@@ -1219,13 +1220,14 @@ header css
 }
 
 .header_v1 .header_top .recent_news .heading h2 {
-	font-size: 14px;
+	min-width: 140px;
+	width: auto;
+	font-size: 15px;
 	color: #fff;
 	background-image: linear-gradient(to right, #3822D6, #5947DF, #300672);
 	text-align: center;
 	padding: 6px 10px;
 	border-radius: 50px;
-	min-width: 120px;
 	margin-top: 4px;
 }
 
@@ -6222,7 +6224,7 @@ contact_form
 }
 
 .contact_form.type_one .image_box .image_6 {
-	top: -200px;
+	top: -700px;
 	right: 140px;
 	z-index: 2;
 }
