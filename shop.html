@@ -14,7 +14,7 @@
       <!-- Responsive -->
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-      <title>Shop | e-Health | Responsive HTML 5 Template</title>
+      <title>Shop | e-Health</title>
       <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <link rel="stylesheet" type="text/css" href="assets/fonts/font/flaticon.css">
@@ -36,157 +36,128 @@
             </div>
          </div>
          <!--End Preloader -->
-         <!--Header-->
-         <header class="header_v2">
+         <!--Header -->
+         <header class="main-header header_v1">
+            <!--Header Top-->
             <section class="header_top">
-               <div class="container">
+               <div class="container-fluid">
                   <div class="row">
-                     <div class="col-lg-8">
-                        <div class="row">
-                           <div class="col-lg-3 col-md-3">
-                              <div class="heading">
-                                 <h2>Today Updates</h2>
+                     <div class="col-lg-10 col-md-12">
+                        <div class="clock_outer">
+                          <p> <span class="fa fa-clock-o"></span>  <span id="clock" class="clock">loading ...</span></p>
+                        </div>
+                      
+                        <!-- Your Actual Ticker -->
+                        <div class="recent_news">
+                           <div class="row">
+                              <div class="col-lg-2 col-md-2" style="margin-left: -20px; margin-right: 20px;">
+                                 <div class="heading">
+                                    <h2>Latest News</h2>
+                                 </div>
                               </div>
-                           </div>
-                           <div class="col-lg-9 col-md-9">
-                              <div class="news_inner">
-                                 <div class="owl-carousel owl-theme single_items">
-                                    <div class="mid-text">
-                                       <p><a href="#">Stabilitech's COVID-19 Vaccine Intended to Be Delivered in a Disruptive Thermally Stable Oral Capsule</a></p>
-                                    </div>
-                                    <div class="mid-text">
-                                       <p><a href="#"> Controlled Release Drug Delivery Market Size Worth $69.8 Billion by 2027: Grand View Research, Inc.</a></p>
-                                    </div>
-                                    <div class="mid-text">
-                                       <p><a href="#">  Drug Delivery Market Size Worth $69.8 Billion by 2027: Grand View Research, Inc.
-                                          </a>
-                                       </p>
+                              <div class="col-lg-10 col-md-9">
+                                 <div class="news_inner">
+                                    <div class="owl-carousel owl-theme single_items">
+                                       <div class="mid-text">
+                                          <p><a>E-Health Is Now Supporting COVID-19 Patients Through Online Guidance.</a></p>
+                                       </div>
+                                       <div class="mid-text">
+                                          <p><a>E-Health's studies report that existing vaccines will fight the UK COVID-19 Strain.</a></p>
+                                       </div>
+                                       <div class="mid-text">
+                                          <p><a>E-Health plans to sell COVID-19 vaccines in the USA as soon as March 1st.</a>
+                                          </p>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-4">
-                        <div class="text_right">
-                           <div class="social_media_icon">
-                              <ul class="clearfix">
-                                 <li>
-                                    <a href="#" class="has-tooltip">
-                                       <span class="fa fa-facebook"></span>
-                                       <div class="c-tooltip">
-                                          <div class="tooltip-inner">Facebook</div>
-                                       </div>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#" class="has-tooltip">
-                                       <span class="fa fa-twitter"></span>
-                                       <div class="c-tooltip">
-                                          <div class="tooltip-inner">Twitter</div>
-                                       </div>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#" class="has-tooltip">
-                                       <span class="fa fa-linkedin"></span>
-                                       <div class="c-tooltip">
-                                          <div class="tooltip-inner">Linkedin</div>
-                                       </div>
-                                    </a>
-                                 </li>
-                              </ul>
-                           </div>
+                     <div class="col-lg-2 col-md-12">
+                        <div class="social_media_icon">
+                           <ul class="clearfix">
+                              <li>
+                                 <a  class="has-tooltip">
+                                    <span class="fa fa-facebook"></span>
+                                    <div class="c-tooltip">
+                                       <div class="tooltip-inner">Facebook</div>
+                                    </div>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a  class="has-tooltip">
+                                    <span class="fa fa-twitter"></span>
+                                    <div class="c-tooltip">
+                                       <div class="tooltip-inner">Twitter</div>
+                                    </div>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a  class="has-tooltip">
+                                    <span class="fa fa-linkedin"></span>
+                                    <div class="c-tooltip">
+                                       <div class="tooltip-inner">Linkedin</div>
+                                    </div>
+                                 </a>
+                              </li>
+                           </ul>
                         </div>
                      </div>
                   </div>
                </div>
             </section>
-            <section class="navbar_outer">
-               <div class="navbar navbar-expand-lg  bsnav bsnav-sticky bsnav-sticky-slide">
-                  <div class="container">
+            <!--Header Top-->
+            <div class="navbar_outer" >
+               <div class="navbar navbar-expand-lg  bsnav bsnav-sticky bsnav-sticky-slide ">
+                  <div class="container-fluid">
                      <a class="navbar-brand" href="index.html"><img src="assets/image/home-1-logo.png" class="img-fluid" alt="img"></a>
                      <button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
                      <div class="collapse navbar-collapse scroll-nav">
-                        <ul class="navbar-nav navbar-mobile navbar_left  ml-auto" id="nav">
-                           <li class="nav-item nav_item  dropdown">
-                              <a class="nav-link link_hd" href="#">  Home  </a>
-                              <ul class="navbar-nav submenu">
-                                 <li class="nav-item"><a class="nav-link" href="index.html">Home Default 01</a></li>
-                                 <li class="nav-item"><a class="nav-link" href="index-2.html">Home Default 02 <span class="new_page">new</span></a></li>
-                                 <li class="nav-item"><a class="nav-link" href="index-3.html">Home Default 03 <span class="new_page">new</span></a></li>
-                                 <li class="nav-item"><a class="nav-link" href="one-page-index-1.html">Home Onepage Version</a></li>
-                                 <li class="nav-item"><a class="nav-link" href="rtl/index.html" target="_blank">Home Default RTL </a></li>
-                                 <li class="nav-item"><a class="nav-link" href="rtl/one-page-index-1.html">Home Onepage RTL</a></li>
-                              </ul>
-                           </li>
+                        <ul class="navbar-nav navbar-mobile navbar_left  ml-auto">
+                           <!-- <li class="nav-item"><a class="nav-link link_hd" href="#home">Home</a></li>
+                           <li class="nav-item"><a class="nav-link link_hd" href="#about">About </a></li>
+                           <li class="nav-item"><a class="nav-link link_hd" href="#specialties">Specialties </a></li>
+                           <li class="nav-item"><a class="nav-link link_hd" href="#process">Our Process</a></li>
+                           <li class="nav-item"><a class="nav-link link_hd" href="#doctors">Doctors</a></li>
+                           <li class="nav-item"><a class="nav-link link_hd" href="#faq">FAQs</a></li>
+                           <li class="nav-item"><a class="nav-link link_hd" href="#blog">Blog</a></li>
+                           <li class="nav-item"><a class="nav-link link_hd" href="#shop">Shop</a></li> -->
+
                            <li class="nav-item nav_item"><a class="nav-link link_hd" href="about.html">About </a></li>
-                           <li class="nav-item nav_item dropdown">
-                              <a class="nav-link link_hd" href="#">  Prevention  </a>
-                              <ul class="navbar-nav submenu">
-                                 <li class="nav-item"><a class="nav-link" href="prevention.html">Prevention</a></li>
-                                 <li class="nav-item"><a class="nav-link" href="prevention-single.html">Prevention Detail</a></li>
-                              </ul>
+                           <li class="nav-item nav_item">
+                              <a class="nav-link link_hd" href="prevention.html">  Our Process  </a>
                            </li>
                            <li class="nav-item nav_item"><a class="nav-link link_hd" href="team.html">Doctors</a></li>
-                           <li class="nav-item nav_item"><a class="nav-link link_hd" href="faq.html">Faq's</a></li>
-                           <li class="nav-item nav_item dropdown">
-                              <a class="nav-link link_hd" href="#">  Blog  </a>
-                              <ul class="navbar-nav submenu">
-                                 <li class="nav-item dropdown">
-                                    <a class="nav-link arrow" href="#">Blog Grid </a>
-                                    <ul class="navbar-nav child_menu">
-                                       <li class="nav-item"><a class="nav-link" href="blog-three-column.html">Blog Three Column</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="blog-four-column.html">Blog Four Column</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog With Sidebar</a></li>
-                                    </ul>
-                                 </li>
-                                 <li class="nav-item dropdown">
-                                    <a class="nav-link arrow" href="#">Blog Details </a>
-                                    <ul class="navbar-nav child_menu">
-                                       <li class="nav-item"><a class="nav-link" href="blog-detail-sidebar.html">With Sidebar</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="blog-detail.html">Without Sidebar</a></li>
-                                    </ul>
-                                 </li>
-                              </ul>
+                           <li class="nav-item nav_item"><a class="nav-link link_hd" href="faq.html">FAQ's</a></li>
+                           <li class="nav-item nav_item">
+                              <a class="nav-link link_hd" href="blog-single.html">  Blog  </a>
                            </li>
-                           <li class="nav-item nav_item dropdown">
-                              <a class="nav-link link_hd" href="#">  Shop  </a>
-                              <ul class="navbar-nav submenu">
-                                 <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
-                                 <li class="nav-item"><a class="nav-link" href="product-details.html">Product Details</a></li>
-                                 <li class="nav-item"><a class="nav-link" href="shop-cart.html">cart</a></li>
-                                 <li class="nav-item"><a class="nav-link" href="checkout.html">checkout</a></li>
-                              </ul>
+                           <li class="nav-item nav_item">
+                              <a class="nav-link link_hd" href="shop.html">  Shop  </a>
                            </li>
                            <li class="nav-item nav_item"><a class="nav-link link_hd" href="contact.html">Contact</a></li>
+
+                           <!-- <li class="nav-item"><a class="nav-link link_hd" href="#contact">Contact</a></li> -->
                         </ul>
-                        <ul class="navbar-nav navbar-mobile navbar_right">
-                           <li class="nav-item  dropdown">
-                              <a href="#" class="cart_btn"><i class="flaticon-add-to-cart icon"></i></a>
-                           </li>
-                           <li class="nav-item  dropdown">
-                              <a href="#" class="topbar-one__search search-popup__toggler"><i class="flaticon-search icon"></i></a>
-                           </li>
-                           <li class="nav-item  dropdown">
-                              <!-- /.site-header__cart -->
-                              <a href="#" class="site-header__sidemenu-nav side-menu__toggler">
-                                 <span class="site-header__sidemenu-nav-line"></span>
-                                 <!-- /.site-header__sidemenu-nav-line -->
-                                 <span class="site-header__sidemenu-nav-line"></span>
-                                 <!-- /.site-header__sidemenu-nav-line -->
-                                 <span class="site-header__sidemenu-nav-line"></span>
-                                 <!-- /.site-header__sidemenu-nav-line -->
-                                 <!-- /.site-header__sidemenu -->
-                              </a>
+                        <ul class="navbar-nav navbar-mobile navbar_right ml-auto">
+                           <li class="nav-item dropdown">
+                              <!-- Calendly link widget begin -->
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<a href="" class="theme_btn tp_one" style="min-width: 250px;" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/help-ehealth/free-consultation?text_color=9857ff&primary_color=3822d6'});return false;">Book Your Free Consultation</a>
+<!-- Calendly link widget end -->
+<!-- Calendly link widget end -->
+                              <!-- <a  class="theme_btn tp_one">Find Doctors</a> -->
                            </li>
                         </ul>
                      </div>
                   </div>
                </div>
-            </section>
+            </div>
          </header>
-         <!--Header-->
+         <!--Header Top-->
          <!------main-content------>
          <main class="main-content">
             <!-----------------breadcrumb------------------------>
@@ -199,7 +170,7 @@
                               <li class="bread_crumb-item"><a href="#">Home</a></li>
                               <li class="bread_crumb-item active">Shop</li>
                            </ul>
-                           <h1>Products</h1>
+                           <h1>Shop</h1>
                         </div>
                      </div>
                   </div>
@@ -209,307 +180,199 @@
             <section class="shop">
                <div class="container">
                   <div class="row">
-                     <div class="col-lg-3">
-                        <div class="shop_left_bar">
-                           <div id="search" class=" widget_search">
-                              <div class=" widget_product_search">
-                                 <form role="search" method="get" class="product-search" action="#">
-                                    <input class="search-field" placeholder="Enter Keyword..." type="search">
-                                    <input type="submit" class="search_btn">
-                                 </form>
-                              </div>
-                           </div>
-                           <div class="categories">
-                              <h2 class="sub_head">Categories</h2>
-                              <ul>
-                                 <li><a href="#">All Categories<span>(20)</span></a></li>
-                                 <li><a href="#"> Business<span>(5)</span></a></li>
-                                 <li><a href="#">Lifestyle<span> (6)</span></a></li>
-                                 <li><a href="#">Experience<span>(3)</span></a></li>
-                                 <li><a href="#">Technology<span>(9)</span></a></li>
-                                 <li><a href="#">Other<span> (8)</span></a></li>
-                              </ul>
-                           </div>
-                           <div class="widget  widget_price_filter">
-                              <h2 class="sub_head">Filter by price</h2>
-                              <form>
-                                 <div class="price_slider_wrapper">
-                                    <div id="slider-range" class="price_slider"></div>
-                                    <div class="price_slider_amount">
-                                       <div class="price_label">
-                                          Price:
-                                          <input type="text" id="amount">
-                                       </div>
-                                    </div>
-                                 </div>
-                              </form>
-                              <div class="clearfix"></div>
-                           </div>
-                           <div class="widget_view_products">
-                              <h2 class="sub_head">Viewed Products</h2>
-                              <div class="view_products">
-                                 <div class="product_inner clearfix">
-                                    <img src="assets/image/shop/product-1.jpg" class="img-fluid" alt="img" />
-                                    <div class="view_text">
-                                       <h2><a href="">Levi Rectangle</a></h2>
-                                       <p>$40.00</p>
-                                    </div>
-                                 </div>
-                                 <div class="product_inner clearfix">
-                                    <img src="assets/image/shop/product-2.jpg" class="img-fluid" alt="img" />
-                                    <div class="view_text">
-                                       <h2><a href="">Denis Rectangle</a></h2>
-                                       <p>$35.00</p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-9">
+                     <div class="col-lg-12">
                         <div class="shop_product">
                            <div class="top_shop_bar">
                               <div class="row ">
                                  <div class="col-lg-6">
                                     <div class="products_showing">
-                                       <p>Showing 1–9 of 17 results</p>
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-6 ">
-                                    <form>
-                                       <div class="form-group float-right">
-                                          <select name="filter" id="shopdropdown">
-                                             <option selected="selected">Select Country</option>
-                                             <option>Australia</option>
-                                             <option>America</option>
-                                             <option>South Korea</option>
-                                             <option>North Korea</option>
-                                          </select>
-                                       </div>
-                                    </form>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-8.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-8.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-5.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-5.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-2.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-2.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-6.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-6.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-1.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-1.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-7.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-7.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-5.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-5.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-4.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-4.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12">
-                                 <div class="product_box type_one">
-                                    <div class="inner_box">
-                                       <div class="image_box">
-                                          <img src="assets/image/shop/product-3.jpg" class="img-fluid" alt="">
-                                          <div class="overlay">
-                                             <a href="assets/image/shop/product-3.jpg" data-fancybox="gallery" data-caption="  ">
-                                             <span class="flaticon-magnifying-glass zoom_icon "></span>
-                                             </a>
-                                          </div>
-                                       </div>
-                                       <div class="content_box">
-                                          <div class="upper_box clearfix">
-                                             <h2>
-                                                <a href="#">Medical Mask</a>
-                                             </h2>
-                                             <a href="#" class="cart_icon"><span class="flaticon-shopping-cart"></span></a>
-                                          </div>
-                                          <p>$20</p>
-                                       </div>
+                                       <p>Showing 1–8 of 8 results</p>
                                     </div>
                                  </div>
                               </div>
                            </div>
                            <div class="row">
-                              <div class="col-lg-12 text-center pagination_column_shop">
-                                 <ul class="pagination">
-                                    <li class="disabled"><a href="#"><span class="fa fa-angle-left"></span></a></li>
-                                    <li class="active"><a href="#">01 </a></li>
-                                    <li><a href="#">02</a></li>
-                                    <li><a href="#">03</a></li>
-                                    <li><a href="#">04</a></li>
-                                    <li><a href="#">05</a></li>
-                                    <li><a href="#"><span class="fa fa-angle-right"></span></a></li>
-                                 </ul>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="mask.jpg" class="img-fluid" alt="">
+                                          <div class="overlay">
+                                             <a href="mask.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2>
+                                                <a>Medical Mask</a>
+                                             </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$6.99</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="floss.jpg" class="img-fluid" alt="shop">
+                                          <div class="overlay">
+                                             <a href="floss.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2>
+                                                <a>Floss</a>
+                                             </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$9.99</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="soap.jpg" class="img-fluid" alt="shop">
+                                          <div class="overlay">
+                                             <a href="soap.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2>
+                                                <a>Soap</a>
+                                             </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$4.49</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="webcam.jpg" class="img-fluid" alt="shop">
+                                          <div class="overlay">
+                                             <a href="webcam.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2>
+                                                <a>Webcam (USB)</a>
+                                             </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$19.99</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="headphones.jpg" class="img-fluid" alt="shop">
+                                          <div class="overlay">
+                                             <a href="headphones.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2> <a>Headset with Microphone</a>  </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$39.99</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="tylenol.jpg" class="img-fluid" alt="">
+                                          <div class="overlay">
+                                             <a href="tylenol.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2>
+                                                <a>Tylenol</a>
+                                             </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$7.49</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="gel.jpg" class="img-fluid" alt="">
+                                          <div class="overlay">
+                                             <a href="gel.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2>
+                                                <a>Sanitizer Gel</a>
+                                             </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$12.99</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 col-xs-12">
+                                 <div class="product_box type_one wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="inner_box">
+                                       <div class="image_box">
+                                          <img src="gloves.jpg" class="img-fluid" alt="">
+                                          <div class="overlay">
+                                             <a href="gloves.jpg" data-fancybox="gallery" data-caption="" target="_blank">
+                                             <span class="flaticon-magnifying-glass zoom_icon"></span>
+                                             </a>
+                                          </div>
+                                       </div>
+                                       <div class="content_box">
+                                          <div class="upper_box clearfix">
+                                             <h2>
+                                                <a>100 Rubber Gloves</a>
+                                             </h2>
+                                             <!-- <a href="#shop" class="cart_icon"><span class="flaticon-shopping-cart"></span></a> -->
+                                          </div>
+                                          <p>$34.99</p>
+                                       </div>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -518,40 +381,38 @@
                </div>
             </section>
             <!--------shop_-------->
-            <section class="footer type_two ">
-               <div class="footer_layer" style="background-image: url(assets/image/resources/footer-bg1.png);"></div>
-               <div class="container ">
-                  <div class="row ">
-                     <div class="col-lg-3 col-xs-12 ">
-                        <div class="footer_widgets tp_two first ">
-                           <h3 class="widgets_title logo ">
-                              <a href="index.html "><img src="assets/image/home-1-logo-white.png " class="img-fluid " alt="logo "></a>
+            <section class="footer type_one">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-5 col-xs-12">
+                        <div class="footer_widgets tp_one first">
+                           <h3 class="widgets_title logo">
+                              <a href="index.html"><img src="assets/image/home-1-logo.png" style="width: 70%;" class="img-fluid" alt="logo" /></a>
                            </h3>
-                           <div class="inner_widgets ">
-                              <p>A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19)</p>
-                              <div class="social_media_icon ">
-                                 <ul class="clearfix ">
+                           <div class="inner_widgets">
+                              <div class="social_media_icon">
+                                 <ul class="clearfix">
                                     <li>
-                                       <a href="# " class="has-tooltip ">
-                                          <span class="fa fa-facebook "></span>
-                                          <div class="c-tooltip ">
-                                             <div class="tooltip-inner ">Facebook</div>
+                                       <a  class="has-tooltip">
+                                          <span class="fa fa-facebook"></span>
+                                          <div class="c-tooltip">
+                                             <div class="tooltip-inner">Facebook</div>
                                           </div>
                                        </a>
                                     </li>
                                     <li>
-                                       <a href="# " class="has-tooltip ">
-                                          <span class="fa fa-twitter "></span>
-                                          <div class="c-tooltip ">
-                                             <div class="tooltip-inner ">Twitter</div>
+                                       <a  class="has-tooltip">
+                                          <span class="fa fa-twitter"></span>
+                                          <div class="c-tooltip">
+                                             <div class="tooltip-inner">Twitter</div>
                                           </div>
                                        </a>
                                     </li>
                                     <li>
-                                       <a href="# " class="has-tooltip ">
-                                          <span class="fa fa-linkedin "></span>
-                                          <div class="c-tooltip ">
-                                             <div class="tooltip-inner ">Linkedin</div>
+                                       <a  class="has-tooltip">
+                                          <span class="fa fa-linkedin"></span>
+                                          <div class="c-tooltip">
+                                             <div class="tooltip-inner">Linkedin</div>
                                           </div>
                                        </a>
                                     </li>
@@ -560,60 +421,33 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="footer_widgets tp_two ">
-                           <h3 class="widgets_title ">Usefull links</h3>
-                           <div class="inner_widgets ">
-                              <ul>
-                                 <li><a href="# ">Situation Reports</a></li>
-                                 <li><a href="# ">Advice For Public</a></li>
-                                 <li><a href="# ">Prevention</a></li>
-                                 <li><a href="# ">Coronavirus Symptoms</a></li>
-                                 <li><a href="# ">Donor & Partners</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="footer_widgets tp_two ">
-                           <h3 class="widgets_title ">Contact us</h3>
-                           <div class="inner_widgets ">
-                              <div class="text_box ">
-                                 <span class="fa fa-map-marker"></span>
-                                 <p>124, Queens walk 2nd cross newyork 5241.</p>
+                     <div class="col-md-4 col-sm-6 col-xs-12 col-md-4 col-sm-6 col-xs-12" style="margin-left: -10%;">
+                        <div class="footer_widgets tp_one">
+                           <h3 class="widgets_title">Contact us</h3>
+                           <div class="inner_widgets">
+                              <div class="text_box">
+                                 <h2>Meet Us In-Person!</h2>
+                                 <p>0000 123rd Ave <br>Seattle, WA</p>
+                                 <p>Monday - Friday: 9 AM to 6 PM</p>
                               </div>
-                              <div class="text_box ">
-                                 <span class="fa fa-phone"></span>
-                                 <p>+44 555 67 890</p>
-                              </div>
-                              <div class="text_box ">
-                                 <span class="fa fa-clock-o"></span>
-                                 <p>Mon - Fri: 09.00 to 18.00</p>
-                              </div>
-                              <div class="text_box ">
-                                 <span class="fa fa-envelope"></span>
-                                 <p>support@e-Health.com</p>
+                              <div class="text_box">
+                                 <h2>Drop A Line!</h2>
+                                 <p>+1 (123) 456-7890</p>
+                                 <p>contact@e-health.com</p>
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
-                        <div class="footer_widgets tp_two ">
-                           <h3 class="widgets_title ">Newsletter</h3>
-                           <div class="inner_widgets ">
-                              <p class="sub_description ">Subscribe Us &amp; Recive Our Offers and Updates i Your Inbox Directly.</p>
+                     <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
+                        <div class="footer_widgets tp_one">
+                           <h3 class="widgets_title">Newsletter</h3>
+                           <div class="inner_widgets">
+                              <p class="sub_description">Subscribe To Us &amp; Recive Our Offers, Updates, or Thoughts Straight To Your Inbox.</p>
                               <form>
-                                 <input type="email" name="email" placeholder="Email Address... " />
-                                 <button class="sub_btn" type="submit"><span class="flaticon-paper-plane "></span></button>
+                                 <input type="email" name="email" placeholder="Email Address..." />
+                                 <button class="sub_btn" type="submit"><span class="flaticon-paper-plane"></span></button>
                               </form>
                            </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="footer_last type_two ">
-                     <div class="row ">
-                        <div class="col-lg-12 text-center ">
-                           <p>Copyright © 2020 E-Health. All Rights Reserved.</p>
                         </div>
                      </div>
                   </div>

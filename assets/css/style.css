@@ -8609,7 +8609,10 @@ porduct-css
 
 .product_box.type_one .image_box img {
 	display: block;
-	width: 100%;
+	/* width: 100%; */
+	width: 350px;
+	height: 200px;
+	object-fit: cover;
 }
 
 .product_box.type_one .overlay {
