@@ -4670,6 +4670,9 @@ ripple video btn css
 	position: relative;
 	overflow: hidden;
 	border-radius: 10px;
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
 }
 
 .doctor_box.type_two .image_box .overlay {
@@ -4931,6 +4934,9 @@ ripple video btn css
 	position: relative;
 	overflow: hidden;
 	border-radius: 10px;
+	width: 350px;
+	height: 350px;
+	object-fit: contain;
 }
 
 .doctor_box.type_one .image_box .overlay {
